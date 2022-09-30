@@ -1,0 +1,91 @@
+.cal{
+    
+    margin-bottom: 120px;
+    padding: 20px;
+
+
+}
+body{
+    background-color: rgb(15, 12, 31)!important;
+}
+
+.grid{
+    background-color: rgb(36, 36, 55);
+    padding: 30px;
+    margin: 20px 10px 30px 10px;
+    border-radius: 10px;
+    border: 0.5px solid white;
+}
+
+#btn-style{
+    background-color: rgb(13, 13, 113);
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 10px solid rgb(156, 156, 240);
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 117.5px;
+    margin-bottom: 131px;
+
+}
+
+.input-style{
+
+    background-color: rgb(217, 213, 234);
+    color: rgb(6, 6, 6);
+    width: 70%;
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-size: 20px;
+    height: 50px;
+    text-align: right;
+}
+
+.mybtn button{
+    background-color: rgb(60, 77, 87);
+    width: 100px;
+    height: 75px;
+    font-size: 30px;
+    font-weight: 600;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 19px;
+    margin: 2px;
+    
+}
+.mybtn button:active{
+    box-shadow: 0 0 #dee9de;
+    top: 6px;
+}
+#btn1{
+    background-color: #0f12dc;
+    width: 270px;
+    margin: 13px;
+    font-size: 30px;
+    padding: 0;
+}
+#try1{
+    color: green;
+
+}
+
+.result{
+    height: auto;
+    width: 30%;
+    text-align: center;
+    margin: 0 35% 0 35%;
+    padding: 3px;
+    border-radius: 6px ;
+    display: none;
+}
+#success{
+    background-color: rgb(12, 210, 12);
+    color: white;
+}
+#fail{
+    background-color: rgb(110, 5, 5);
+    color: white;
+    
+}
